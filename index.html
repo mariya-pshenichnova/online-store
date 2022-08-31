@@ -1,0 +1,519 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avito!</title>
+    <link rel="icon" href="images/icons/open-store.svg">
+    <!--    Кастомные стили   -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="sidebar">
+    <div class="sidebar-logo">
+        <div class="logo"><a href="/">
+                <img src="images/logo_avito.svg" alt="Logo"></a>
+        </div>
+    </div>
+    <nav class="nav">
+        <h3 class="nav-title">Категории</h3>
+        <ul class="nav-list">
+            <li><a href="#">
+                    <img src="images/navigation/flash.svg" alt="Новинки">Новинки</a></li>
+            <li><a href="#">
+                    <img src="images/navigation/clothing.svg" alt="Одежда">Одежда</a></li>
+            <li><a href="#">
+                    <img src="images/navigation/shoes.svg" alt="Обувь">Обувь</a></li>
+            <li><a href="#">
+                    <img src="images/navigation/bag.svg" alt="Аксессуары">Аксессуары</a></li>
+            <li><a href="#">
+                    <img src="images/navigation/sport.svg" alt="Спорт">Спорт</a></li>
+            <li><a href="#">
+                    <img src="images/navigation/gift.svg" alt="Подарки">Подарки</a></li>
+            <li><a href="#">
+                    <img src="images/navigation/diamond.svg" alt="Украшения">Украшения</a></li>
+        </ul>
+    </nav>
+    <ul class="nav-help-center">
+        <li><a class="open-store" href="#">
+                <img src="images/icons/open-store.svg" alt="Открыть магазин">Открыть магазин</a></li>
+        <li><a class="help" href="#">
+                <img src="images/icons/help.svg" alt="Служба поддержки">Служба поддержки</a></li>
+    </ul>
+</div>
+
+<main class="main">
+    <header class="header">
+        <div class="header-search">
+            <form class="search">
+                <label class="search-label">
+                    <img class="search-icon" src="images/icons/search.svg" alt="Поиск">
+                    <input class="search-input" type="text" placeholder="Введите название товара" aria-label="Поиск">
+                </label>
+            </form>
+        </div>
+        <div class="header-links">
+            <nav class="nav-header">
+                <ul class="nav-header-list">
+                    <li class="nav-header-link"><a href="/items" alt="Товары">Товары</a></li>
+                    <li class="nav-header-link"><a href="/shops" alt="Магазины">Магазины</a></li>
+                    <li class="nav-header-link"><a href="#" alt="Доставка">Доставка</a></li>
+                    <li class="nav-header-link"><a href="#" alt="Правила">Заказать</a></li>
+                    <li class="nav-header-icon"><a href="#">
+                            <img class="search-icon" src="images/icons/basket.svg" alt="Корзина">
+                        </a></li>
+                    <li class="nav-header-icon"><a href="#">
+                            <img class="search-icon" src="images/icons/person.svg" alt="Вход и регистрация">
+                        </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<div class="cards-wrapper">
+    <div class="cards-wrapper-row">
+        <div class="cards-wrapper-col col-vertical">
+            <div class="card card-sale-vertical"><a href="">
+                    <img class="card-image" src="images/cards/W1.svg" alt="Распродажа"></a>
+            </div>
+            <div class="card card-sale-vertical"><a href="">
+                    <img class="card-image" src="images/cards/W2.svg" alt="Летние скидки"></a>
+            </div>
+        </div>
+        <div class="cards-wrapper-col col-horizontal">
+            <div class="card card-sale-horizontal">
+                <div class="card-product">
+                    <button class="card-product-fav-btn">
+                        <svg width="15" height="14" viewBox="0 0 15 14" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M7.85293 2.23724L8.42982 1.64278C9.74075 0.290146 11.8283 0.101245 13.2084 1.27701C14.824 2.65599 14.9109 5.13799 13.4608 6.63447L7.79659 12.4831C7.62714 12.658 7.35815 12.658 7.18871 12.4831L1.5246 6.63457C0.0772874 5.13808 0.164165 2.65612 1.77968 1.27713C3.15989 0.101064 5.25089 0.290979 6.55863 1.64301L7.13529 2.23724L7.49411 2.60698L7.85293 2.23724Z" />
+                        </svg>
+                    </button>
+                    <a href="">
+                        <img class="card-image" src="images/cards/W7.svg" alt="Товар"></a>
+                </div>
+            </div>
+            <div class="card card-sale-horizontal">
+                <div class="card-product">
+                    <button class="card-product-fav-btn">
+                        <svg width="15" height="14" viewBox="0 0 15 14" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M7.85293 2.23724L8.42982 1.64278C9.74075 0.290146 11.8283 0.101245 13.2084 1.27701C14.824 2.65599 14.9109 5.13799 13.4608 6.63447L7.79659 12.4831C7.62714 12.658 7.35815 12.658 7.18871 12.4831L1.5246 6.63457C0.0772874 5.13808 0.164165 2.65612 1.77968 1.27713C3.15989 0.101064 5.25089 0.290979 6.55863 1.64301L7.13529 2.23724L7.49411 2.60698L7.85293 2.23724Z" />
+                        </svg>
+                    </button>
+                    <a href="">
+                        <img class="card-image" src="images/cards/W8.svg" alt="Товар"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cards-wrapper-row">
+        <div class="cards-wrapper-col col-horizontal">
+            <div class="card card-sale-horizontal">
+                <div class="card-product">
+                    <button class="card-product-fav-btn">
+                        <svg width="15" height="14" viewBox="0 0 15 14" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M7.85293 2.23724L8.42982 1.64278C9.74075 0.290146 11.8283 0.101245 13.2084 1.27701C14.824 2.65599 14.9109 5.13799 13.4608 6.63447L7.79659 12.4831C7.62714 12.658 7.35815 12.658 7.18871 12.4831L1.5246 6.63457C0.0772874 5.13808 0.164165 2.65612 1.77968 1.27713C3.15989 0.101064 5.25089 0.290979 6.55863 1.64301L7.13529 2.23724L7.49411 2.60698L7.85293 2.23724Z" />
+                        </svg>
+                    </button>
+                    <a href="">
+                        <img class="card-image" src="images/cards/W3.svg" alt="Товар"></a>
+                </div>
+            </div>
+            <div class="card card-sale-horizontal">
+                <div class="card-product">
+                    <button class="card-product-fav-btn">
+                        <svg width="15" height="14" viewBox="0 0 15 14" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M7.85293 2.23724L8.42982 1.64278C9.74075 0.290146 11.8283 0.101245 13.2084 1.27701C14.824 2.65599 14.9109 5.13799 13.4608 6.63447L7.79659 12.4831C7.62714 12.658 7.35815 12.658 7.18871 12.4831L1.5246 6.63457C0.0772874 5.13808 0.164165 2.65612 1.77968 1.27713C3.15989 0.101064 5.25089 0.290979 6.55863 1.64301L7.13529 2.23724L7.49411 2.60698L7.85293 2.23724Z" />
+                        </svg>
+                    </button>
+                    <a href="">
+                        <img class="card-image" src="images/cards/W4.svg" alt="Товар"></a>
+                </div>
+            </div>
+        </div>
+        <div class="cards-wrapper-col col-vertical">
+            <div class="card card-sale-vertical"><a href="">
+                    <img class="card-image" src="images/cards/W5.svg" alt="Популярные товары"></a>
+            </div>
+            <div class="card card-sale-vertical"><a href="">
+                    <img class="card-image" src="images/cards/W6.svg" alt="Новинки"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="featured-section">
+    <div class="container">
+        <div class="section-header">
+            <h3 class="section-header_title">Популярные товары</h3>
+            <div class="section-header_description">
+                <p>подобранные специально для Вас</p>
+            </div>
+        </div>
+        <div class="products-wrapper">
+            <a href="#" class="product-link">
+                <div class="product">
+                    <button class="card-product-fav-btn">
+                        <svg width="15" height="14" viewBox="0 0 15 14" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M7.85293 2.23724L8.42982 1.64278C9.74075 0.290146 11.8283 0.101245 13.2084 1.27701C14.824 2.65599 14.9109 5.13799 13.4608 6.63447L7.79659 12.4831C7.62714 12.658 7.35815 12.658 7.18871 12.4831L1.5246 6.63457C0.0772874 5.13808 0.164165 2.65612 1.77968 1.27713C3.15989 0.101064 5.25089 0.290979 6.55863 1.64301L7.13529 2.23724L7.49411 2.60698L7.85293 2.23724Z" />
+                        </svg>
+                    </button>
+                    <img class="product__img" src="images/products/1.jpg" alt="Футболка-631P">
+                    <h4 class="product__title">Футболка</h4>
+                    <div class="product__price">
+                        <del><span class="product__price-old">699Р</span></del>
+                        <span class="product__price-new">631P</span>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="product-link">
+                <div class="product">
+                    <button class="card-product-fav-btn">
+                        <svg width="15" height="14" viewBox="0 0 15 14" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M7.85293 2.23724L8.42982 1.64278C9.74075 0.290146 11.8283 0.101245 13.2084 1.27701C14.824 2.65599 14.9109 5.13799 13.4608 6.63447L7.79659 12.4831C7.62714 12.658 7.35815 12.658 7.18871 12.4831L1.5246 6.63457C0.0772874 5.13808 0.164165 2.65612 1.77968 1.27713C3.15989 0.101064 5.25089 0.290979 6.55863 1.64301L7.13529 2.23724L7.49411 2.60698L7.85293 2.23724Z" />
+                        </svg>
+                    </button>
+                    <img class="product__img" src="images/products/2.jpg" alt="Футболка-1299Р">
+                    <h4 class="product__title">Футболка</h4>
+                    <div class="product__price">
+                        <del><span class="product__price-old">1599Р</span></del>
+                        <span class="product__price-new">1299P</span>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="product-link">
+                <div class="product">
+                    <button class="card-product-fav-btn">
+                        <svg width="15" height="14" viewBox="0 0 15 14" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M7.85293 2.23724L8.42982 1.64278C9.74075 0.290146 11.8283 0.101245 13.2084 1.27701C14.824 2.65599 14.9109 5.13799 13.4608 6.63447L7.79659 12.4831C7.62714 12.658 7.35815 12.658 7.18871 12.4831L1.5246 6.63457C0.0772874 5.13808 0.164165 2.65612 1.77968 1.27713C3.15989 0.101064 5.25089 0.290979 6.55863 1.64301L7.13529 2.23724L7.49411 2.60698L7.85293 2.23724Z" />
+                        </svg>
+                    </button>
+                    <img class="product__img" src="images/products/3.jpg" alt="Сарафан длинный-499P">
+                    <h4 class="product__title">Сарафан длинный</h4>
+                    <div class="product__price">
+                        <del><span class="product__price-old">1699Р</span></del>
+                        <span class="product__price-new">499P</span>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="product-link">
+                <div class="product">
+                    <button class="card-product-fav-btn">
+                        <svg width="15" height="14" viewBox="0 0 15 14" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M7.85293 2.23724L8.42982 1.64278C9.74075 0.290146 11.8283 0.101245 13.2084 1.27701C14.824 2.65599 14.9109 5.13799 13.4608 6.63447L7.79659 12.4831C7.62714 12.658 7.35815 12.658 7.18871 12.4831L1.5246 6.63457C0.0772874 5.13808 0.164165 2.65612 1.77968 1.27713C3.15989 0.101064 5.25089 0.290979 6.55863 1.64301L7.13529 2.23724L7.49411 2.60698L7.85293 2.23724Z" />
+                        </svg>
+                    </button>
+                    <img class="product__img" src="images/products/4.jpg" alt="Джинсы-999Р">
+                    <h4 class="product__title">Джинсы</h4>
+                    <div class="product__price">
+                        <del><span class="product__price-old">2199Р</span></del>
+                        <span class="product__price-new">999P</span>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="product-link">
+                <div class="product">
+                    <button class="card-product-fav-btn">
+                        <svg width="15" height="14" viewBox="0 0 15 14" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M7.85293 2.23724L8.42982 1.64278C9.74075 0.290146 11.8283 0.101245 13.2084 1.27701C14.824 2.65599 14.9109 5.13799 13.4608 6.63447L7.79659 12.4831C7.62714 12.658 7.35815 12.658 7.18871 12.4831L1.5246 6.63457C0.0772874 5.13808 0.164165 2.65612 1.77968 1.27713C3.15989 0.101064 5.25089 0.290979 6.55863 1.64301L7.13529 2.23724L7.49411 2.60698L7.85293 2.23724Z" />
+                        </svg>
+                    </button>
+                    <img class="product__img" src="images/products/5.jpg" alt="Кросовки-1499Р">
+                    <h4 class="product__title">Кросовки</h4>
+                    <div class="product__price">
+                        <del><span class="product__price-old">2999Р</span></del>
+                        <span class="product__price-new">1499P</span>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="product-link">
+                <div class="product">
+                    <button class="card-product-fav-btn">
+                        <svg width="15" height="14" viewBox="0 0 15 14" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M7.85293 2.23724L8.42982 1.64278C9.74075 0.290146 11.8283 0.101245 13.2084 1.27701C14.824 2.65599 14.9109 5.13799 13.4608 6.63447L7.79659 12.4831C7.62714 12.658 7.35815 12.658 7.18871 12.4831L1.5246 6.63457C0.0772874 5.13808 0.164165 2.65612 1.77968 1.27713C3.15989 0.101064 5.25089 0.290979 6.55863 1.64301L7.13529 2.23724L7.49411 2.60698L7.85293 2.23724Z" />
+                        </svg>
+                    </button>
+                    <img class="product__img" src="images/products/6.jpg" alt="Топ-245Р">
+                    <h4 class="product__title">Топ</h4>
+                    <div class="product__price">
+                        <del><span class="product__price-old">599Р</span></del>
+                        <span class="product__price-new">245P</span>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="product-link">
+                <div class="product">
+                    <button class="card-product-fav-btn">
+                        <svg width="15" height="14" viewBox="0 0 15 14" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M7.85293 2.23724L8.42982 1.64278C9.74075 0.290146 11.8283 0.101245 13.2084 1.27701C14.824 2.65599 14.9109 5.13799 13.4608 6.63447L7.79659 12.4831C7.62714 12.658 7.35815 12.658 7.18871 12.4831L1.5246 6.63457C0.0772874 5.13808 0.164165 2.65612 1.77968 1.27713C3.15989 0.101064 5.25089 0.290979 6.55863 1.64301L7.13529 2.23724L7.49411 2.60698L7.85293 2.23724Z" />
+                        </svg>
+                    </button>
+                    <img class="product__img" src="images/products/7.jpg" alt="Футболка-1199Р">
+                    <h4 class="product__title">Футболка</h4>
+                    <div class="product__price">
+                        <del><span class="product__price-old">1399Р</span></del>
+                        <span class="product__price-new">1199P</span>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="product-link">
+                <div class="product">
+                    <button class="card-product-fav-btn">
+                        <svg width="15" height="14" viewBox="0 0 15 14" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M7.85293 2.23724L8.42982 1.64278C9.74075 0.290146 11.8283 0.101245 13.2084 1.27701C14.824 2.65599 14.9109 5.13799 13.4608 6.63447L7.79659 12.4831C7.62714 12.658 7.35815 12.658 7.18871 12.4831L1.5246 6.63457C0.0772874 5.13808 0.164165 2.65612 1.77968 1.27713C3.15989 0.101064 5.25089 0.290979 6.55863 1.64301L7.13529 2.23724L7.49411 2.60698L7.85293 2.23724Z" />
+                        </svg>
+                    </button>
+                    <img class="product__img" src="images/products/8.jpg" alt="Брюки широкие-699P">
+                    <h4 class="product__title">Брюки широкие</h4>
+                    <div class="product__price">
+                        <del><span class="product__price-old">1699Р</span></del>
+                        <span class="product__price-new">699P</span>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="product-link">
+                <div class="product">
+                    <button class="card-product-fav-btn">
+                        <svg width="15" height="14" viewBox="0 0 15 14" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M7.85293 2.23724L8.42982 1.64278C9.74075 0.290146 11.8283 0.101245 13.2084 1.27701C14.824 2.65599 14.9109 5.13799 13.4608 6.63447L7.79659 12.4831C7.62714 12.658 7.35815 12.658 7.18871 12.4831L1.5246 6.63457C0.0772874 5.13808 0.164165 2.65612 1.77968 1.27713C3.15989 0.101064 5.25089 0.290979 6.55863 1.64301L7.13529 2.23724L7.49411 2.60698L7.85293 2.23724Z" />
+                        </svg>
+                    </button>
+                    <img class="product__img" src="images/products/9.jpg" alt="Платье на запах-699P">
+                    <h4 class="product__title">Платье на запах</h4>
+                    <div class="product__price">
+                        <del><span class="product__price-old">2199Р</span></del>
+                        <span class="product__price-new">699P</span>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="product-link">
+                <div class="product">
+                    <button class="card-product-fav-btn">
+                        <svg width="15" height="14" viewBox="0 0 15 14" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M7.85293 2.23724L8.42982 1.64278C9.74075 0.290146 11.8283 0.101245 13.2084 1.27701C14.824 2.65599 14.9109 5.13799 13.4608 6.63447L7.79659 12.4831C7.62714 12.658 7.35815 12.658 7.18871 12.4831L1.5246 6.63457C0.0772874 5.13808 0.164165 2.65612 1.77968 1.27713C3.15989 0.101064 5.25089 0.290979 6.55863 1.64301L7.13529 2.23724L7.49411 2.60698L7.85293 2.23724Z" />
+                        </svg>
+                    </button>
+                    <img class="product__img" src="images/products/10.jpg" alt="Топ-699Р">
+                    <h4 class="product__title">Топ</h4>
+                    <div class="product__price">
+                        <del><span class="product__price-old">1299Р</span></del>
+                        <span class="product__price-new">699P</span>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="product-link">
+                <div class="product">
+                    <button class="card-product-fav-btn">
+                        <svg width="15" height="14" viewBox="0 0 15 14" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M7.85293 2.23724L8.42982 1.64278C9.74075 0.290146 11.8283 0.101245 13.2084 1.27701C14.824 2.65599 14.9109 5.13799 13.4608 6.63447L7.79659 12.4831C7.62714 12.658 7.35815 12.658 7.18871 12.4831L1.5246 6.63457C0.0772874 5.13808 0.164165 2.65612 1.77968 1.27713C3.15989 0.101064 5.25089 0.290979 6.55863 1.64301L7.13529 2.23724L7.49411 2.60698L7.85293 2.23724Z" />
+                        </svg>
+                    </button>
+                    <img class="product__img" src="images/products/11.jpg" alt="Джинсы-бананы-999P">
+                    <h4 class="product__title">Джинсы-бананы</h4>
+                    <div class="product__price">
+                        <del><span class="product__price-old">2499Р</span></del>
+                        <span class="product__price-new">999P</span>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="product-link">
+                <div class="product">
+                    <button class="card-product-fav-btn">
+                        <svg width="15" height="14" viewBox="0 0 15 14" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M7.85293 2.23724L8.42982 1.64278C9.74075 0.290146 11.8283 0.101245 13.2084 1.27701C14.824 2.65599 14.9109 5.13799 13.4608 6.63447L7.79659 12.4831C7.62714 12.658 7.35815 12.658 7.18871 12.4831L1.5246 6.63457C0.0772874 5.13808 0.164165 2.65612 1.77968 1.27713C3.15989 0.101064 5.25089 0.290979 6.55863 1.64301L7.13529 2.23724L7.49411 2.60698L7.85293 2.23724Z" />
+                        </svg>
+                    </button>
+                    <img class="product__img" src="images/products/12.jpg" alt="Футболка-999Р">
+                    <h4 class="product__title">Футболка</h4>
+                    <div class="product__price">
+                        <del><span class="product__price-old">1299Р</span></del>
+                        <span class="product__price-new">999P</span>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="product-link">
+                <div class="product">
+                    <button class="card-product-fav-btn">
+                        <svg width="15" height="14" viewBox="0 0 15 14" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M7.85293 2.23724L8.42982 1.64278C9.74075 0.290146 11.8283 0.101245 13.2084 1.27701C14.824 2.65599 14.9109 5.13799 13.4608 6.63447L7.79659 12.4831C7.62714 12.658 7.35815 12.658 7.18871 12.4831L1.5246 6.63457C0.0772874 5.13808 0.164165 2.65612 1.77968 1.27713C3.15989 0.101064 5.25089 0.290979 6.55863 1.64301L7.13529 2.23724L7.49411 2.60698L7.85293 2.23724Z" />
+                        </svg>
+                    </button>
+                    <img class="product__img" src="images/products/13.jpg" alt="Платье легкое-699Р">
+                    <h4 class="product__title">Платье легкое</h4>
+                    <div class="product__price">
+                        <del><span class="product__price-old">1999Р</span></del>
+                        <span class="product__price-new">699P</span>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="product-link">
+                <div class="product">
+                    <button class="card-product-fav-btn">
+                        <svg width="15" height="14" viewBox="0 0 15 14" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M7.85293 2.23724L8.42982 1.64278C9.74075 0.290146 11.8283 0.101245 13.2084 1.27701C14.824 2.65599 14.9109 5.13799 13.4608 6.63447L7.79659 12.4831C7.62714 12.658 7.35815 12.658 7.18871 12.4831L1.5246 6.63457C0.0772874 5.13808 0.164165 2.65612 1.77968 1.27713C3.15989 0.101064 5.25089 0.290979 6.55863 1.64301L7.13529 2.23724L7.49411 2.60698L7.85293 2.23724Z" />
+                        </svg>
+                    </button>
+                    <img class="product__img" src="images/products/14.jpg" alt="Свитшот-1499P">
+                    <h4 class="product__title">Свитшот</h4>
+                    <div class="product__price">
+                        <del><span class="product__price-old">2499Р</span></del>
+                        <span class="product__price-new">1499P</span>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="product-link">
+                <div class="product">
+                    <button class="card-product-fav-btn">
+                        <svg width="15" height="14" viewBox="0 0 15 14" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M7.85293 2.23724L8.42982 1.64278C9.74075 0.290146 11.8283 0.101245 13.2084 1.27701C14.824 2.65599 14.9109 5.13799 13.4608 6.63447L7.79659 12.4831C7.62714 12.658 7.35815 12.658 7.18871 12.4831L1.5246 6.63457C0.0772874 5.13808 0.164165 2.65612 1.77968 1.27713C3.15989 0.101064 5.25089 0.290979 6.55863 1.64301L7.13529 2.23724L7.49411 2.60698L7.85293 2.23724Z" />
+                        </svg>
+                    </button>
+                    <img class="product__img" src="images/products/15.jpg" alt="Платье длинное-999Р">
+                    <h4 class="product__title">Платье длинное</h4>
+                    <div class="product__price">
+                        <del><span class="product__price-old">2199Р</span></del>
+                        <span class="product__price-new">999P</span>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="product-link">
+                <div class="product">
+                    <button class="card-product-fav-btn">
+                        <svg width="15" height="14" viewBox="0 0 15 14" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M7.85293 2.23724L8.42982 1.64278C9.74075 0.290146 11.8283 0.101245 13.2084 1.27701C14.824 2.65599 14.9109 5.13799 13.4608 6.63447L7.79659 12.4831C7.62714 12.658 7.35815 12.658 7.18871 12.4831L1.5246 6.63457C0.0772874 5.13808 0.164165 2.65612 1.77968 1.27713C3.15989 0.101064 5.25089 0.290979 6.55863 1.64301L7.13529 2.23724L7.49411 2.60698L7.85293 2.23724Z" />
+                        </svg>
+                    </button>
+                    <img class="product__img" src="images/products/16.jpg" alt="Футболка-899P">
+                    <h4 class="product__title">Футболка</h4>
+                    <div class="product__price">
+                        <del><span class="product__price-old">1599Р</span></del>
+                        <span class="product__price-new">899P</span>
+                    </div>
+                </div>
+            </a>
+
+
+        </div>
+        <div class="featured__section-btn">
+            <a href="#" class="button-outline">
+                Все товары
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="brands__section">
+
+    <div class="brands">
+        <div class="brands-header">
+            <h3 class="section-header_title">Популярные магазины</h3>
+        </div>
+        <div class="brands-list">
+            <a href="#" class="brands-link">
+                <img class="brand-img" src="images/brands/1.jpg" alt="i">
+            </a>
+            <a href="#" class="brands-link">
+                <img class="brand-img" src="images/brands/2.jpg" alt="i">
+            </a>
+            <a href="#" class="brands-link">
+                <img class="brand-img" src="images/brands/3.jpg" alt="i">
+            </a>
+            <a href="#" class="brands-link">
+                <img class="brand-img" src="images/brands/4.jpg" alt="i">
+            </a>
+            <a href="#" class="brands-link">
+                <img class="brand-img" src="images/brands/5.jpg" alt="i">
+            </a>
+            <a href="#" class="brands-link">
+                <img class="brand-img" src="images/brands/6.jpg" alt="i">
+            </a>
+            <a href="#" class="brands-link">
+                <img class="brand-img" src="images/brands/7.jpg" alt="i">
+            </a>
+            <a href="#" class="brands-link">
+                <img class="brand-img" src="images/brands/8.jpg" alt="i">
+            </a>
+            <a href="#" class="brands-link">
+                <img class="brand-img" src="images/brands/9.jpg" alt="i">
+            </a>
+            <a href="#" class="brands-link">
+                <img class="brand-img" src="images/brands/10.jpg" alt="i">
+            </a>
+            <a href="#" class="brands-link">
+                <img class="brand-img" src="images/brands/11.jpg" alt="i">
+            </a>
+            <a href="#" class="brands-link">
+                <img class="brand-img" src="images/brands/12.jpg" alt="i">
+            </a>
+            <a href="#" class="brands-link">
+                <img class="brand-img" src="images/brands/13.jpg" alt="i">
+            </a>
+            <a href="#" class="brands-link">
+                <img class="brand-img" src="images/brands/14.jpg" alt="i">
+            </a>
+            <a href="#" class="brands-link">
+                <img class="brand-img" src="images/brands/15.jpg" alt="i">
+            </a>
+            <a href="#" class="brands-link">
+                <img class="brand-img" src="images/brands/16.jpg" alt="i">
+            </a>
+        </div>
+        <div class="brands_btm">
+            <a href="#" class="brands-outline">
+                Все магазины
+            </a>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer__container">
+        <div class="footer__column">
+            <nav class="footer-navigation">
+                <a href="">Личный кабинет</a>
+                <a href="">Контакты</a>
+                <a href="">Правила</a>
+            </nav>
+            <div class="footer__socials">
+                <a href="#" class="footer__socials-link">
+                    <img class="footer__socials_icon" src="images/socials/vk.svg" alt="Вконтакте">
+                </a>
+                <a href="#" class="footer__socials-link">
+                    <img class="footer__socials_icon" src="images/socials/telegram.svg" alt="Телеграм">
+                </a>
+                <a href="#" class="footer__socials-link">
+                    <img class="footer__socials_icon" src="images/socials/pinterest.svg" alt="Пинтерест">
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</main>
+
+</body>
+
+</html>
